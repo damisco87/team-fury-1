@@ -1,7 +1,9 @@
-const fullname = "Festus Okunlola";
-const id = "HNG-04567";
-const language = "javascript";
-const email = "damisco87@aim.com"
-const tasktext = `hello world, this is ${fullname} with the HNGi7 ID ${id} and email ${email} using ${language} for stage 2 task`;
-
-document.write(tasktext);
+	var intro= {
+   		fullname: "Festus Okunlola",
+        id: "HNGi7-ID-04567",
+		email: "damisco87@aim.com"
+        language: "javascript",
+        
+		}
+    var details= "hello world, this is "+ intro.fullname +" with the " + intro.id+ " and email "+ intro.email +" using "+ intro.language +" for stage 2 task";
+    document.write(details);
